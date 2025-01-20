@@ -13,17 +13,29 @@ Các phép tính với ma trận
    [[ 6,  8],
     [10, 12]]
 
+   ![image](https://github.com/user-attachments/assets/bd1f1399-21f7-4215-b11c-724b8de830bd)
+
+
 1.2. Trừ
-   Tương tự như phép cộng, phép trừ cũng yêu cầu hai ma trận phải có cùng kích thước.
+   Phép trừ ma trận cũng tương tự như phép cộng, nhưng thay vì cộng, ta sẽ trừ từng phần tử của ma trận này với phần tử tương      ứng của ma trận kia.
    Ví dụ:
    print(A - B)
    [[-4, -4],
     [-4, -4]]
 
+   ![image](https://github.com/user-attachments/assets/17b9ddd1-bd6e-4637-af4f-2bd6d6194c43)
 
 
-3. Nhân
-4. Tích hadamard
-5. Bài tập thực hành
+2. Nhân
+   Nhân ma trận: Được thực hiện khi số cột của ma trận đầu tiên bằng số hàng của ma trận thứ hai.
+   ![image](https://github.com/user-attachments/assets/504c464a-4228-4284-818f-be02523e2f0f)
 
+3. Tích hadamard
+   Tích Hadamard: Là phép nhân từng phần tử của hai ma trận cùng kích thước.
+   ![image](https://github.com/user-attachments/assets/286fe277-0b79-4a9e-b69e-a731d705a332)
+
+4. Bài tập thực hành
+Bài tập thực hành:
+Tạo ma trận A và B với kích thước 3x3, thực hiện các phép cộng, trừ, và nhân.
+Thực hiện tích Hadamard với hai ma trận đó.
    
