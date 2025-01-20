@@ -8,9 +8,22 @@ Các phép tính với ma trận
   A = np.array([[1, 2], [3, 4]])
   B = np.array([[5, 6], [7, 8]])
   print(A + B)
+
+   Kết quả"
+   [[ 6,  8],
+    [10, 12]]
+
 1.2. Trừ
-2. Nhân
-3. Tích hadamard
-4. Bài tập thực hành
+   Tương tự như phép cộng, phép trừ cũng yêu cầu hai ma trận phải có cùng kích thước.
+   Ví dụ:
+   print(A - B)
+   [[-4, -4],
+    [-4, -4]]
+
+
+
+3. Nhân
+4. Tích hadamard
+5. Bài tập thực hành
 
    
